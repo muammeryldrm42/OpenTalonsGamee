@@ -18,7 +18,7 @@
 
 // ── Constants ────────────────────────────────────────────────────────────────
 const REZ_MAGIC = 0x5a455200;           // "REZ\0" as 32-bit LE
-const REZ_MAGIC_ALT = 0x00ZER00;       // alternative header seen in some builds (unused)
+const REZ_MAGIC_ALT = 0x205a4552;      // " REZ" as 32-bit LE (unused alternative magic)
 const REZ_VERSION = 1;
 const DIRECTORY_FLAG = 0x01;
 const FILE_FLAG = 0x00;
