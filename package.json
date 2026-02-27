@@ -1,0 +1,35 @@
+{
+  "name": "opentalons",
+  "version": "0.1.0",
+  "description": "A high-performance, open-source 2D game engine: a modern web-first reimplementation of the Captain Claw (1997) engine.",
+  "license": "MIT",
+  "author": "OpenTalons Contributors",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest",
+    "tools:convert": "tsx tools/asset-converter/cli.ts"
+  },
+  "dependencies": {
+    "pixi.js": "^8.0.0",
+    "@pixi/sound": "^6.0.0",
+    "bitecs": "^0.3.40"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "vite": "^5.2.0",
+    "vitest": "^1.5.0",
+    "eslint": "^8.57.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "tsx": "^4.7.0",
+    "commander": "^12.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
